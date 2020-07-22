@@ -23,4 +23,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'FujiDesignCommon/Classes/**/*'
 
+  # If you are wondering why your build is stuck, please reach out to @adamkaplan on Slack.
+  s.prepare_command = 'yes'
+
 end

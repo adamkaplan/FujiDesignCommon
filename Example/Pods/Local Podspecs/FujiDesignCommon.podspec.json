@@ -1,22 +1,23 @@
 {
   "name": "FujiDesignCommon",
-  "version": "0.1.0",
-  "summary": "A short description of FujiDesignCommon.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Adam Kaplan/FujiDesignCommon",
+  "version": "2.10.0",
+  "summary": "This Pod is for research purposes only.",
+  "description": "This Pod is for research purposes only. Use it not recommended.",
+  "homepage": "https://github.com/adamkaplan/FujiDesignCommon",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Adam Kaplan": "adamkaplan@verizonmedia.com"
+    "Adam Kaplan": "adkap@adkap.com"
   },
   "source": {
-    "git": "https://github.com/Adam Kaplan/FujiDesignCommon.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/adamkaplan/FujiDesignCommon.git",
+    "tag": "2.10.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "FujiDesignCommon/Classes/**/*"
+  "source_files": "FujiDesignCommon/Classes/**/*",
+  "prepare_command": "yes"
 }

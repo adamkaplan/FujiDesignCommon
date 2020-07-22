@@ -1,5 +1,5 @@
 PODS:
-  - FujiDesignCommon (0.1.0)
+  - FujiDesignCommon (2.10.0)
 
 DEPENDENCIES:
   - FujiDesignCommon (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FujiDesignCommon: 4dff3ada849dfb588822c4afdf971d6f6d9762e5
+  FujiDesignCommon: a7596c13bcf358ada2a718dc7864e60f13d025a0
 
 PODFILE CHECKSUM: acc0c3fdb56b43ee6b053cdf00b3e8aad605978a
 
