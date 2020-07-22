@@ -8,35 +8,19 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FujiDesignCommon'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of FujiDesignCommon.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.version          = '2.10.0'
+  s.summary          = 'This Pod is for research purposes only.'
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  This Pod is for research purposes only. Use it not recommended.
                        DESC
 
-  s.homepage         = 'https://github.com/Adam Kaplan/FujiDesignCommon'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/adamkaplan/FujiDesignCommon'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Adam Kaplan' => 'adamkaplan@verizonmedia.com' }
-  s.source           = { :git => 'https://github.com/Adam Kaplan/FujiDesignCommon.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'Adam Kaplan' => 'adkap@adkap.com' }
+  s.source           = { :git => 'https://github.com/adamkaplan/FujiDesignCommon.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'FujiDesignCommon/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'FujiDesignCommon' => ['FujiDesignCommon/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

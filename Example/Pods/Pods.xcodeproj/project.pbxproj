@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60480CDFE9B27324EBECDCC2A1E647D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		61C44D172DAE0C40D37915A2CF652790 /* FujiDesignCommon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C3D7F6F3571E841E54F84B11F5CFC8 /* FujiDesignCommon-dummy.m */; };
+		91D06BD54BF3047BB2AB315C3D998C5E /* FujiDesignCommon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E47EB3F0B93FE9711D5B072C717C416 /* FujiDesignCommon-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97A27F4A957176971ED9617C100C1AE9 /* Pods-FujiDesignCommon_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A68F272C66BAC14A9E27A67B896DB7D /* Pods-FujiDesignCommon_Tests-dummy.m */; };
+		9DABE2DDEE0D8E8B92831AFEB9F8BFB7 /* Pods-FujiDesignCommon_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD38CC89D534ADE38CD345E391016FFD /* Pods-FujiDesignCommon_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A39D52A9ACD4BC8CF08271F2EEE6A3B6 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E56749923B64D03B72955FC2AC78E7 /* ReplaceMe.swift */; };
+		DDF13315FE81ECE199BD846555A7A514 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		118318F480A74707EB87EFEDA12C2055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32FEE30F0E57DE920B289E34F3B0BDAC;
+			remoteInfo = FujiDesignCommon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		166349455C5AB0086D4F8EEC750FE19B /* Pods-FujiDesignCommon_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FujiDesignCommon_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		19FD56C2CE91520D37410A418C81BCE2 /* Pods-FujiDesignCommon_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FujiDesignCommon_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		224A3B5392BAD5906DAC7D7DFA9DAA95 /* FujiDesignCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FujiDesignCommon.framework; path = FujiDesignCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22688DA5FDB060C7EF1118731E4E372B /* FujiDesignCommon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FujiDesignCommon.release.xcconfig; sourceTree = "<group>"; };
+		2C4DC3B0CB355F37476227679792658C /* Pods-FujiDesignCommon_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FujiDesignCommon_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		2E47EB3F0B93FE9711D5B072C717C416 /* FujiDesignCommon-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FujiDesignCommon-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		362A18EFE5FEAAB7FEB5AB49153D8ACF /* Pods-FujiDesignCommon_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FujiDesignCommon_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		49C3D7F6F3571E841E54F84B11F5CFC8 /* FujiDesignCommon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FujiDesignCommon-dummy.m"; sourceTree = "<group>"; };
+		4A68F272C66BAC14A9E27A67B896DB7D /* Pods-FujiDesignCommon_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FujiDesignCommon_Tests-dummy.m"; sourceTree = "<group>"; };
+		4B40649A2D96002A1886530DE1BC43FC /* FujiDesignCommon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FujiDesignCommon.debug.xcconfig; sourceTree = "<group>"; };
+		743DB0F1F25CFD2C859B0DD75D5D7B62 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		76E56749923B64D03B72955FC2AC78E7 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = FujiDesignCommon/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		884A8CEFEE4AAA29F591AD1FA644DA64 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		884B4E2FA2DD7D1352745969E5BF0B2D /* Pods-FujiDesignCommon_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FujiDesignCommon_Tests.modulemap"; sourceTree = "<group>"; };
+		88C79B3221BE288932A472ECA9F698CA /* FujiDesignCommon-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FujiDesignCommon-prefix.pch"; sourceTree = "<group>"; };
+		94F02E5C65091AA218677FBAD50FDC09 /* FujiDesignCommon.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FujiDesignCommon.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A45237D7F3A838A7B2FF990D47E881FE /* Pods_FujiDesignCommon_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FujiDesignCommon_Tests.framework; path = "Pods-FujiDesignCommon_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5B8AE04E6206276C2C35E6C2DA1FCDC /* Pods-FujiDesignCommon_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FujiDesignCommon_Tests-Info.plist"; sourceTree = "<group>"; };
+		AD38CC89D534ADE38CD345E391016FFD /* Pods-FujiDesignCommon_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FujiDesignCommon_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B96708E6CCBBF94985477070FC798BC5 /* FujiDesignCommon.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FujiDesignCommon.modulemap; sourceTree = "<group>"; };
+		C364E718DE820D97C3BF699AE7348A85 /* Pods-FujiDesignCommon_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FujiDesignCommon_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FE66E828C96EAED912737C0747530B07 /* FujiDesignCommon-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FujiDesignCommon-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC972502D276D3EC7A47650BD5A2CADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60480CDFE9B27324EBECDCC2A1E647D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D77BA9DC5D4B82E8B390E472DE8FFE7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF13315FE81ECE199BD846555A7A514 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FF1512C62BDA6D32DFA53CA273B7945 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				260A4FB5C43D2744A3D810E8E78E2771 /* Pods-FujiDesignCommon_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		260A4FB5C43D2744A3D810E8E78E2771 /* Pods-FujiDesignCommon_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				884B4E2FA2DD7D1352745969E5BF0B2D /* Pods-FujiDesignCommon_Tests.modulemap */,
+				362A18EFE5FEAAB7FEB5AB49153D8ACF /* Pods-FujiDesignCommon_Tests-acknowledgements.markdown */,
+				C364E718DE820D97C3BF699AE7348A85 /* Pods-FujiDesignCommon_Tests-acknowledgements.plist */,
+				4A68F272C66BAC14A9E27A67B896DB7D /* Pods-FujiDesignCommon_Tests-dummy.m */,
+				2C4DC3B0CB355F37476227679792658C /* Pods-FujiDesignCommon_Tests-frameworks.sh */,
+				A5B8AE04E6206276C2C35E6C2DA1FCDC /* Pods-FujiDesignCommon_Tests-Info.plist */,
+				AD38CC89D534ADE38CD345E391016FFD /* Pods-FujiDesignCommon_Tests-umbrella.h */,
+				166349455C5AB0086D4F8EEC750FE19B /* Pods-FujiDesignCommon_Tests.debug.xcconfig */,
+				19FD56C2CE91520D37410A418C81BCE2 /* Pods-FujiDesignCommon_Tests.release.xcconfig */,
+			);
+			name = "Pods-FujiDesignCommon_Tests";
+			path = "Target Support Files/Pods-FujiDesignCommon_Tests";
+			sourceTree = "<group>";
+		};
+		2E35DE2455EDDA92377003B42B111D41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				224A3B5392BAD5906DAC7D7DFA9DAA95 /* FujiDesignCommon.framework */,
+				A45237D7F3A838A7B2FF990D47E881FE /* Pods_FujiDesignCommon_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C93140D3796B05D54410770A6692562 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				94F02E5C65091AA218677FBAD50FDC09 /* FujiDesignCommon.podspec */,
+				884A8CEFEE4AAA29F591AD1FA644DA64 /* LICENSE */,
+				743DB0F1F25CFD2C859B0DD75D5D7B62 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5E5A9C12FB6B8623457D64135515A8ED /* FujiDesignCommon */ = {
+			isa = PBXGroup;
+			children = (
+				76E56749923B64D03B72955FC2AC78E7 /* ReplaceMe.swift */,
+				5C93140D3796B05D54410770A6692562 /* Pod */,
+				B841E68602E8D052086905D7F0BF21EB /* Support Files */,
+			);
+			name = FujiDesignCommon;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9A9EAD537F88BCBF07285E679C942503 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E5A9C12FB6B8623457D64135515A8ED /* FujiDesignCommon */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B841E68602E8D052086905D7F0BF21EB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B96708E6CCBBF94985477070FC798BC5 /* FujiDesignCommon.modulemap */,
+				49C3D7F6F3571E841E54F84B11F5CFC8 /* FujiDesignCommon-dummy.m */,
+				FE66E828C96EAED912737C0747530B07 /* FujiDesignCommon-Info.plist */,
+				88C79B3221BE288932A472ECA9F698CA /* FujiDesignCommon-prefix.pch */,
+				2E47EB3F0B93FE9711D5B072C717C416 /* FujiDesignCommon-umbrella.h */,
+				4B40649A2D96002A1886530DE1BC43FC /* FujiDesignCommon.debug.xcconfig */,
+				22688DA5FDB060C7EF1118731E4E372B /* FujiDesignCommon.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FujiDesignCommon";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				9A9EAD537F88BCBF07285E679C942503 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2E35DE2455EDDA92377003B42B111D41 /* Products */,
+				0FF1512C62BDA6D32DFA53CA273B7945 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3949C0317B60F46C1DAE965DA8A2FA1C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91D06BD54BF3047BB2AB315C3D998C5E /* FujiDesignCommon-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3B2B9B878F6A6D795F02C8C31B2864 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DABE2DDEE0D8E8B92831AFEB9F8BFB7 /* Pods-FujiDesignCommon_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		32FEE30F0E57DE920B289E34F3B0BDAC /* FujiDesignCommon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03798AF6891031005C1BE048C5F52DED /* Build configuration list for PBXNativeTarget "FujiDesignCommon" */;
+			buildPhases = (
+				3949C0317B60F46C1DAE965DA8A2FA1C /* Headers */,
+				0A230E8F8DF3CAE10FB402CC517C3E70 /* Sources */,
+				AC972502D276D3EC7A47650BD5A2CADA /* Frameworks */,
+				7C119EA07BE638B1CA6148086B57DF7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FujiDesignCommon;
+			productName = FujiDesignCommon;
+			productReference = 224A3B5392BAD5906DAC7D7DFA9DAA95 /* FujiDesignCommon.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D7A1458ABD850F0322D262BD3A6F5C7D /* Pods-FujiDesignCommon_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F32A0F831B6D7E8218A12A46CF1B044 /* Build configuration list for PBXNativeTarget "Pods-FujiDesignCommon_Tests" */;
+			buildPhases = (
+				EF3B2B9B878F6A6D795F02C8C31B2864 /* Headers */,
+				C640E7251C8EA664240CDB303A5C1EBE /* Sources */,
+				D77BA9DC5D4B82E8B390E472DE8FFE7E /* Frameworks */,
+				B70C45FADA6C033B746561E3A1D48D62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				879EA0DF97E7FC6A19BD08FCD4312828 /* PBXTargetDependency */,
+			);
+			name = "Pods-FujiDesignCommon_Tests";
+			productName = "Pods-FujiDesignCommon_Tests";
+			productReference = A45237D7F3A838A7B2FF990D47E881FE /* Pods_FujiDesignCommon_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2E35DE2455EDDA92377003B42B111D41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32FEE30F0E57DE920B289E34F3B0BDAC /* FujiDesignCommon */,
+				D7A1458ABD850F0322D262BD3A6F5C7D /* Pods-FujiDesignCommon_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C119EA07BE638B1CA6148086B57DF7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B70C45FADA6C033B746561E3A1D48D62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A230E8F8DF3CAE10FB402CC517C3E70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61C44D172DAE0C40D37915A2CF652790 /* FujiDesignCommon-dummy.m in Sources */,
+				A39D52A9ACD4BC8CF08271F2EEE6A3B6 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C640E7251C8EA664240CDB303A5C1EBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97A27F4A957176971ED9617C100C1AE9 /* Pods-FujiDesignCommon_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		879EA0DF97E7FC6A19BD08FCD4312828 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FujiDesignCommon;
+			target = 32FEE30F0E57DE920B289E34F3B0BDAC /* FujiDesignCommon */;
+			targetProxy = 118318F480A74707EB87EFEDA12C2055 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0EEEBA36D1A754612D59E3640E139B54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B40649A2D96002A1886530DE1BC43FC /* FujiDesignCommon.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FujiDesignCommon/FujiDesignCommon-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FujiDesignCommon/FujiDesignCommon-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FujiDesignCommon/FujiDesignCommon.modulemap";
+				PRODUCT_MODULE_NAME = FujiDesignCommon;
+				PRODUCT_NAME = FujiDesignCommon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		29172C82FDAF6780D4A9898551559452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22688DA5FDB060C7EF1118731E4E372B /* FujiDesignCommon.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FujiDesignCommon/FujiDesignCommon-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FujiDesignCommon/FujiDesignCommon-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FujiDesignCommon/FujiDesignCommon.modulemap";
+				PRODUCT_MODULE_NAME = FujiDesignCommon;
+				PRODUCT_NAME = FujiDesignCommon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5818CD1CC5DADBE18D5A66AFC4C83D95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 166349455C5AB0086D4F8EEC750FE19B /* Pods-FujiDesignCommon_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FujiDesignCommon_Tests/Pods-FujiDesignCommon_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FujiDesignCommon_Tests/Pods-FujiDesignCommon_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6DD1C54B2C00A953BE3BF3C38D9721D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19FD56C2CE91520D37410A418C81BCE2 /* Pods-FujiDesignCommon_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FujiDesignCommon_Tests/Pods-FujiDesignCommon_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FujiDesignCommon_Tests/Pods-FujiDesignCommon_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03798AF6891031005C1BE048C5F52DED /* Build configuration list for PBXNativeTarget "FujiDesignCommon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EEEBA36D1A754612D59E3640E139B54 /* Debug */,
+				29172C82FDAF6780D4A9898551559452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F32A0F831B6D7E8218A12A46CF1B044 /* Build configuration list for PBXNativeTarget "Pods-FujiDesignCommon_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5818CD1CC5DADBE18D5A66AFC4C83D95 /* Debug */,
+				6DD1C54B2C00A953BE3BF3C38D9721D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

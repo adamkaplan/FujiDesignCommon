@@ -1,0 +1,6 @@
+framework module FujiDesignCommon {
+  umbrella header "FujiDesignCommon-umbrella.h"
+
+  export *
+  module * { export * }
+}

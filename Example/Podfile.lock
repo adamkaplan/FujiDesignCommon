@@ -1,0 +1,16 @@
+PODS:
+  - FujiDesignCommon (0.1.0)
+
+DEPENDENCIES:
+  - FujiDesignCommon (from `../`)
+
+EXTERNAL SOURCES:
+  FujiDesignCommon:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FujiDesignCommon: 4dff3ada849dfb588822c4afdf971d6f6d9762e5
+
+PODFILE CHECKSUM: acc0c3fdb56b43ee6b053cdf00b3e8aad605978a
+
+COCOAPODS: 1.9.1

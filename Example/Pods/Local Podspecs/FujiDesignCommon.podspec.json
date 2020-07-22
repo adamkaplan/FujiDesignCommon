@@ -1,0 +1,22 @@
+{
+  "name": "FujiDesignCommon",
+  "version": "0.1.0",
+  "summary": "A short description of FujiDesignCommon.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Adam Kaplan/FujiDesignCommon",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Adam Kaplan": "adamkaplan@verizonmedia.com"
+  },
+  "source": {
+    "git": "https://github.com/Adam Kaplan/FujiDesignCommon.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FujiDesignCommon/Classes/**/*"
+}
