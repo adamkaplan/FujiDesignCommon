@@ -1,0 +1,6 @@
+use_frameworks!
+target 'FujiDesignCommon_Tests' do
+  pod 'FujiDesignCommon', :path => '../'
+  
+  
+end
