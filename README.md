@@ -22,7 +22,7 @@ pod 'FujiDesignCommon'
 
 ## Author
 
-Adam Kaplan, adamkaplan@verizonmedia.com
+Adam Kaplan
 
 ## License
 
