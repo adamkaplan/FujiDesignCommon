@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FujiDesignCommon'
-  s.version          = '2.31.1'
+  s.version          = '2.31.2'
   s.summary          = 'This Pod is for research purposes only.'
   s.description      = <<-DESC
   This Pod is for research purposes only. Use it not recommended.
