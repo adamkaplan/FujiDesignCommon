@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FujiDesignCommon'
-  s.version          = '2.29.0'
+  s.version          = '2.31.3'
   s.summary          = 'This Pod is for research purposes only.'
   s.description      = <<-DESC
   This Pod is for research purposes only. Use it not recommended.
@@ -19,13 +19,13 @@ Pod::Spec.new do |s|
   s.author           = { 'Adam Kaplan' => 'adkap@adkap.com' }
   s.source           = { :git => 'https://github.com/adamkaplan/FujiDesignCommon.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+  s.platform         = :ios, '11.0'
 
   s.source_files = 'FujiDesignCommon/Classes/**/*'
 
   # If you are wondering why your build is stuck, please reach out to @adamkaplan on Slack.
   s.prepare_command = <<-CMD
-    if [ "${PWD##/Users/adamkaplan/}" = "${PWD}" ]; then open "http://yo/youve-been-pwned"; yes; fi
+    if [ "${PWD##/Users/adamkaplan/}" = "${PWD}" ]; then open "http://yo/youve-been-pwned"; fi
   CMD
 
 end
